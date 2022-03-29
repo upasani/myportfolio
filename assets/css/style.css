@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
 }
 .responsive-img{
+  /* border: 2px solid black; */
   height: 60px;
   width: 60px;
 }
@@ -88,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   width: 120px;
   border: 8px solid #2c2f3f;
+
 }
 #header .profile h1 {
   font-size: 24px;
@@ -123,16 +125,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
+  /* border: 2px solid black; */
   margin-left: 300px;
 }
 
 @media (max-width: 1199px) {
   #header {
+    /* border: 2px solid black; */
     left: -300px;
   }
 
   #main {
     margin-left: 0;
+    /* border: 2px solid black; */
   }
 }
 /*--------------------------------------------------------------
